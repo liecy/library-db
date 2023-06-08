@@ -1,0 +1,164 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9342D249-DBB5-917D-FE03-4D9F5A7A0520" name="PEMINJAMAN">
+<createdBy>user</createdBy>
+<createdTime>2023-05-16 18:06:25 UTC</createdTime>
+<ownerDesignName>perpustakaan</ownerDesignName>
+<engineerTo>
+<item key="D08F8490-A7FA-D1CD-14D8-5BB84755EC40" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_peminjaman" id="0539B7FC-77A1-7DE6-3028-FC437D46659C">
+<createdBy>user</createdBy>
+<createdTime>2023-05-16 18:06:38 UTC</createdTime>
+<ownerDesignName>perpustakaan</ownerDesignName>
+<engineerTo>
+<item key="D08F8490-A7FA-D1CD-14D8-5BB84755EC40" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tanggal_pinjam" id="4A778DEE-2553-948D-F8DE-EC253F9F58D4">
+<createdBy>user</createdBy>
+<createdTime>2023-05-16 18:06:54 UTC</createdTime>
+<ownerDesignName>perpustakaan</ownerDesignName>
+<engineerTo>
+<item key="D08F8490-A7FA-D1CD-14D8-5BB84755EC40" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tanggal_kembali" id="8A439893-073D-E64E-B7CF-F22CCCEC4C01">
+<createdBy>user</createdBy>
+<createdTime>2023-05-16 18:07:09 UTC</createdTime>
+<ownerDesignName>perpustakaan</ownerDesignName>
+<engineerTo>
+<item key="D08F8490-A7FA-D1CD-14D8-5BB84755EC40" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="denda" id="AC02DD1A-D468-72A0-08ED-F807AE86E1B6">
+<createdBy>user</createdBy>
+<createdTime>2023-05-16 18:07:21 UTC</createdTime>
+<ownerDesignName>perpustakaan</ownerDesignName>
+<engineerTo>
+<item key="D08F8490-A7FA-D1CD-14D8-5BB84755EC40" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="isbn" id="9321092B-B370-6943-5435-08669209EEA7">
+<createdBy>user</createdBy>
+<createdTime>2023-05-16 18:38:31 UTC</createdTime>
+<generatorID>9764557B-3BB8-677A-4841-7ED2A9D32641</generatorID>
+<ownerDesignName>perpustakaan</ownerDesignName>
+<engineerTo>
+<item key="D08F8490-A7FA-D1CD-14D8-5BB84755EC40" value="true"/>
+</engineerTo>
+<referedAttribute>A886FA33-4F73-F91C-A37A-D3B4FEBD63AE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_kategori" id="37BD6395-01A1-61D4-D759-456DA0267D2C">
+<createdBy>user</createdBy>
+<createdTime>2023-05-16 18:38:31 UTC</createdTime>
+<generatorID>9764557B-3BB8-677A-4841-7ED2A9D32641</generatorID>
+<ownerDesignName>perpustakaan</ownerDesignName>
+<engineerTo>
+<item key="D08F8490-A7FA-D1CD-14D8-5BB84755EC40" value="true"/>
+</engineerTo>
+<referedAttribute>60DD5C77-969B-2848-0812-EEE3D12982BF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_rak" id="72D9DDED-9E6D-52C2-1084-5AAFF2F3F06F">
+<createdBy>user</createdBy>
+<createdTime>2023-05-16 18:38:31 UTC</createdTime>
+<generatorID>9764557B-3BB8-677A-4841-7ED2A9D32641</generatorID>
+<ownerDesignName>perpustakaan</ownerDesignName>
+<engineerTo>
+<item key="D08F8490-A7FA-D1CD-14D8-5BB84755EC40" value="true"/>
+</engineerTo>
+<referedAttribute>7A7E3F47-6F2A-F95D-41D3-47878CEA6DC3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pegawai" id="5CB7BA92-B678-7AF3-6A75-DE88C7714139">
+<createdBy>user</createdBy>
+<createdTime>2023-05-16 18:42:24 UTC</createdTime>
+<generatorID>4D2EEB45-D447-942D-3569-08F56A27077B</generatorID>
+<ownerDesignName>perpustakaan</ownerDesignName>
+<engineerTo>
+<item key="D08F8490-A7FA-D1CD-14D8-5BB84755EC40" value="true"/>
+</engineerTo>
+<referedAttribute>F001DC8A-785C-F410-FBF8-25F3BE3A6163</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>18</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_anggota" id="F5A5F254-B438-582F-54E2-C62034F013DF">
+<createdBy>user</createdBy>
+<createdTime>2023-05-16 18:44:04 UTC</createdTime>
+<generatorID>97C6803F-00FB-5474-D27D-75420B314ADD</generatorID>
+<ownerDesignName>perpustakaan</ownerDesignName>
+<engineerTo>
+<item key="D08F8490-A7FA-D1CD-14D8-5BB84755EC40" value="true"/>
+</engineerTo>
+<referedAttribute>FA5D0885-C76D-C507-8F7E-B184BE15993B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="304F7CA6-73CF-8F26-5E70-BCD5A8E5658F" name="PEMINJAMAN PK">
+<createdBy>user</createdBy>
+<createdTime>2023-05-16 18:06:53 UTC</createdTime>
+<ownerDesignName>perpustakaan</ownerDesignName>
+<engineerTo>
+<item key="D08F8490-A7FA-D1CD-14D8-5BB84755EC40" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0539B7FC-77A1-7DE6-3028-FC437D46659C</attributeRef>
+<attributeRef>9321092B-B370-6943-5435-08669209EEA7</attributeRef>
+<attributeRef>37BD6395-01A1-61D4-D759-456DA0267D2C</attributeRef>
+<attributeRef>72D9DDED-9E6D-52C2-1084-5AAFF2F3F06F</attributeRef>
+<attributeRef>F5A5F254-B438-582F-54E2-C62034F013DF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

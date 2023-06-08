@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7130DA26-61BC-9E3D-EC34-B4F9B71FD289" name="RAK">
+<createdBy>user</createdBy>
+<createdTime>2023-05-16 18:57:35 UTC</createdTime>
+<generatorID>0DAA8007-F6D8-33DE-7D94-3689AAD6BA89</generatorID>
+<ownerDesignName>perpustakaan</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_rak" id="AE69BD98-7E83-FBD8-4F9C-823C8F4CF278">
+<createdBy>user</createdBy>
+<createdTime>2023-05-16 18:57:35 UTC</createdTime>
+<generatorID>F5C2762B-1718-3153-3B60-092F9F8D399B</generatorID>
+<ownerDesignName>perpustakaan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="91962A60-57D7-C92E-D653-B879FB79BFC9" name="RAK_PK">
+<createdBy>user</createdBy>
+<createdTime>2023-05-16 18:57:35 UTC</createdTime>
+<generatorID>A78E37E5-4836-E958-419B-DF22E20816F2</generatorID>
+<ownerDesignName>perpustakaan</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE69BD98-7E83-FBD8-4F9C-823C8F4CF278"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FD7FAB96-31FE-5F4D-6292-88C1214752D9" containerWithKeyObject="CE2A5A2A-C356-3D0D-6489-82D6A195B541" localFKIndex="8D323A86-F315-7A18-FDC5-80E8EA999C4B" name="PEMINJAMAN_ANGGOTA_FK">
+<createdBy>user</createdBy>
+<createdTime>2023-05-16 18:57:35 UTC</createdTime>
+<generatorID>97C6803F-00FB-5474-D27D-75420B314ADD</generatorID>
+<ownerDesignName>perpustakaan</ownerDesignName>
+<referredTableLongName>ANGGOTA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B6721E5F-7CA2-5F19-433E-794EACF8AF7C</referredTableID>
+<keyObject>6946061E-0C49-582E-8EB5-6E336FDB8253</keyObject>
+<referredKeyID>6946061E-0C49-582E-8EB5-6E336FDB8253</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_anggota</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="517ADD65-EA08-6A2B-86A6-3F3102D5EB8F" name="KATEGORI">
+<createdBy>user</createdBy>
+<createdTime>2023-05-16 18:57:35 UTC</createdTime>
+<generatorID>2C9C31A7-588D-74E7-842B-A2B8BDA73DC1</generatorID>
+<ownerDesignName>perpustakaan</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_kategori" id="E93F6CDD-E060-7ADB-1A3E-18C60947240B">
+<createdBy>user</createdBy>
+<createdTime>2023-05-16 18:57:35 UTC</createdTime>
+<generatorID>E56DBBE3-B3D1-CC92-7EAD-9E886449737D</generatorID>
+<ownerDesignName>perpustakaan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama" id="220D41E8-487B-089D-CDE3-17E0CB4D6130">
+<createdBy>user</createdBy>
+<createdTime>2023-05-16 18:57:35 UTC</createdTime>
+<generatorID>EBAE4D7C-FFBA-C273-E370-281CFF4E24D2</generatorID>
+<ownerDesignName>perpustakaan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="920D3A3D-58C7-F656-B0EE-A2D4F7E321D9" name="KATEGORI_PK">
+<createdBy>user</createdBy>
+<createdTime>2023-05-16 18:57:35 UTC</createdTime>
+<generatorID>D665176F-D298-38AD-7041-681D04F2E2E5</generatorID>
+<ownerDesignName>perpustakaan</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E93F6CDD-E060-7ADB-1A3E-18C60947240B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

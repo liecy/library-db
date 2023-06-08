@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="57480170-54AC-BB58-C40D-C49BAD61BB0C" name="DEPARTEMEN">
+<createdBy>user</createdBy>
+<createdTime>2023-05-16 18:11:38 UTC</createdTime>
+<ownerDesignName>perpustakaan</ownerDesignName>
+<engineerTo>
+<item key="D08F8490-A7FA-D1CD-14D8-5BB84755EC40" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_departemen" id="1042C356-7965-619A-DF60-239A967ABEEC">
+<createdBy>user</createdBy>
+<createdTime>2023-05-16 18:11:45 UTC</createdTime>
+<ownerDesignName>perpustakaan</ownerDesignName>
+<engineerTo>
+<item key="D08F8490-A7FA-D1CD-14D8-5BB84755EC40" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama_departemen" id="794ABCFF-4DD6-72E0-4A9E-3C57A91EB7D8">
+<createdBy>user</createdBy>
+<createdTime>2023-05-16 18:12:01 UTC</createdTime>
+<ownerDesignName>perpustakaan</ownerDesignName>
+<engineerTo>
+<item key="D08F8490-A7FA-D1CD-14D8-5BB84755EC40" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7DCF502F-6108-2320-802C-3290272EEB8D" name="DEPARTEMEN PK">
+<createdBy>user</createdBy>
+<createdTime>2023-05-16 18:12:01 UTC</createdTime>
+<ownerDesignName>perpustakaan</ownerDesignName>
+<engineerTo>
+<item key="D08F8490-A7FA-D1CD-14D8-5BB84755EC40" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1042C356-7965-619A-DF60-239A967ABEEC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

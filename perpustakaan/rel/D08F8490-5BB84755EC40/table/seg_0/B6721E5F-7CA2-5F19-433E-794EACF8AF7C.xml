@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B6721E5F-7CA2-5F19-433E-794EACF8AF7C" name="ANGGOTA">
+<createdBy>user</createdBy>
+<createdTime>2023-05-16 18:57:35 UTC</createdTime>
+<generatorID>599DB58D-E45B-DB30-7D6B-CF17214AD92C</generatorID>
+<ownerDesignName>perpustakaan</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_anggota" id="DDE61A8E-9229-E5FB-84D0-02218CF3F08D">
+<createdBy>user</createdBy>
+<createdTime>2023-05-16 18:57:35 UTC</createdTime>
+<generatorID>FA5D0885-C76D-C507-8F7E-B184BE15993B</generatorID>
+<ownerDesignName>perpustakaan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tanggal_daftar" id="67DF3FEB-56BC-E5BD-FA85-0E7D2E3E3319">
+<createdBy>user</createdBy>
+<createdTime>2023-05-16 18:57:35 UTC</createdTime>
+<generatorID>7910FDE2-8FE4-6350-F8F8-54851E899F54</generatorID>
+<ownerDesignName>perpustakaan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama" id="82EB57A8-6A0A-4E0C-7C75-903E81D0629B">
+<createdBy>user</createdBy>
+<createdTime>2023-05-16 18:57:35 UTC</createdTime>
+<generatorID>5098A603-976A-3136-DCAA-E877F7552B09</generatorID>
+<ownerDesignName>perpustakaan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="alamat" id="4B17FEB9-1833-822A-75CE-8B70139AEC52">
+<createdBy>user</createdBy>
+<createdTime>2023-05-16 18:57:35 UTC</createdTime>
+<generatorID>8DE17112-0D74-2D67-9BFC-86C57AE51BBE</generatorID>
+<ownerDesignName>perpustakaan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pekerjaan" id="8D04087E-D07E-7986-3AF4-0EC2797A12B6">
+<createdBy>user</createdBy>
+<createdTime>2023-05-16 18:57:35 UTC</createdTime>
+<generatorID>27F4DD0F-088E-A31A-6BE6-F5F94877B7EC</generatorID>
+<ownerDesignName>perpustakaan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PENGUNJUNG_nomor_pengunjung" id="E2FB5A1B-FEC2-001E-5B9C-0AF549B7C322">
+<createdBy>user</createdBy>
+<createdTime>2023-05-16 18:57:35 UTC</createdTime>
+<generatorID>3924B1C0-0BB3-EBCB-3876-470A37C765EB</generatorID>
+<ownerDesignName>perpustakaan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0A6384C4-E19A-7D2A-74AA-C00F30663B85" referredColumn="702434A0-AF08-C50D-6DE6-7C2EA382642B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6946061E-0C49-582E-8EB5-6E336FDB8253" name="ANGGOTA_PK">
+<createdBy>user</createdBy>
+<createdTime>2023-05-16 18:57:35 UTC</createdTime>
+<generatorID>287863DB-5B99-A7EF-C91A-87F6E633AD1D</generatorID>
+<ownerDesignName>perpustakaan</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DDE61A8E-9229-E5FB-84D0-02218CF3F08D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B40F8492-2487-EE97-CF21-86E047C5FE86" name="ANGGOTA__IDX">
+<createdBy>user</createdBy>
+<createdTime>2023-05-16 18:57:35 UTC</createdTime>
+<ownerDesignName>perpustakaan</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>F80A6AFC-C3D9-F5BB-15C7-63819A7319E8</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="E2FB5A1B-FEC2-001E-5B9C-0AF549B7C322"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4F964EB-F221-0BAC-669C-818A1C90B25E" name="ANGGOTA_PENGUNJUNG_FK">
+<createdBy>user</createdBy>
+<createdTime>2023-05-16 18:57:35 UTC</createdTime>
+<generatorID>F80A6AFC-C3D9-F5BB-15C7-63819A7319E8</generatorID>
+<ownerDesignName>perpustakaan</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2FB5A1B-FEC2-001E-5B9C-0AF549B7C322"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

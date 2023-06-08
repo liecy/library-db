@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="393C2F82-74EC-F162-32F4-4F8981E276A9" name="BUKU">
+<createdBy>user</createdBy>
+<createdTime>2023-05-16 18:57:35 UTC</createdTime>
+<generatorID>92807E2A-5AD1-9CB7-5ED7-B0F697755493</generatorID>
+<ownerDesignName>perpustakaan</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="isbn" id="0BA1DF30-B633-9AF7-F302-F413689DFC83">
+<createdBy>user</createdBy>
+<createdTime>2023-05-16 18:57:35 UTC</createdTime>
+<generatorID>A886FA33-4F73-F91C-A37A-D3B4FEBD63AE</generatorID>
+<ownerDesignName>perpustakaan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="judul" id="9854CC0E-EFE9-247F-9EE0-C562268BE7E8">
+<createdBy>user</createdBy>
+<createdTime>2023-05-16 18:57:35 UTC</createdTime>
+<generatorID>D6AC696D-769B-CD31-DA9F-DAB6A2B43E2D</generatorID>
+<ownerDesignName>perpustakaan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jumlah" id="5874BF04-6B4E-D268-432C-712FEB9C53CA">
+<createdBy>user</createdBy>
+<createdTime>2023-05-16 18:57:35 UTC</createdTime>
+<generatorID>F81FA50C-AD5D-C492-FCB2-14D32E37F8B6</generatorID>
+<ownerDesignName>perpustakaan</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="penulis" id="381078DC-36FD-C116-5CCD-3555F740A6F9">
+<createdBy>user</createdBy>
+<createdTime>2023-05-16 18:57:35 UTC</createdTime>
+<generatorID>FBE93F67-F059-233F-DAC7-B143CF33E5A3</generatorID>
+<ownerDesignName>perpustakaan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="penerbit" id="4F1CB4EE-3E29-A2D1-FFD1-FF8AA48B0B5B">
+<createdBy>user</createdBy>
+<createdTime>2023-05-16 18:57:35 UTC</createdTime>
+<generatorID>B25E6959-2D93-5893-03AB-AD32E3C41FB1</generatorID>
+<ownerDesignName>perpustakaan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tahun" id="DE0290E6-CCA5-9CD9-EE3C-5BD76C9C6DF4">
+<createdBy>user</createdBy>
+<createdTime>2023-05-16 18:57:35 UTC</createdTime>
+<generatorID>CDB567C7-D6D8-A4F0-C6B7-CED9D80CAAFA</generatorID>
+<ownerDesignName>perpustakaan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KATEGORI_id_kategori" id="3CD82F81-427D-2043-BD33-20E118B35547">
+<createdBy>user</createdBy>
+<createdTime>2023-05-16 18:57:35 UTC</createdTime>
+<generatorID>60DD5C77-969B-2848-0812-EEE3D12982BF</generatorID>
+<ownerDesignName>perpustakaan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3103AF2D-5EA8-7467-6642-96ECC26F1A3C" referredColumn="E93F6CDD-E060-7ADB-1A3E-18C60947240B"/>
+</associations>
+</Column>
+<Column name="RAK_id_rak" id="75D3EDDF-6B12-AFB4-DE0D-BA518BB59456">
+<createdBy>user</createdBy>
+<createdTime>2023-05-16 18:57:35 UTC</createdTime>
+<generatorID>7A7E3F47-6F2A-F95D-41D3-47878CEA6DC3</generatorID>
+<ownerDesignName>perpustakaan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="25559FF7-5A4F-C809-56A0-DE1F854DA682" referredColumn="AE69BD98-7E83-FBD8-4F9C-823C8F4CF278"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FC07A291-A333-91B3-0854-36643F467871" name="BUKU_PK">
+<createdBy>user</createdBy>
+<createdTime>2023-05-16 18:57:35 UTC</createdTime>
+<generatorID>766025E7-F875-B084-AF5F-21583BE61AF0</generatorID>
+<ownerDesignName>perpustakaan</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0BA1DF30-B633-9AF7-F302-F413689DFC83"/>
+<colUsage columnID="3CD82F81-427D-2043-BD33-20E118B35547"/>
+<colUsage columnID="75D3EDDF-6B12-AFB4-DE0D-BA518BB59456"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB2DE3EF-85D2-2204-AB4A-9338E6C4294C" name="BUKU_KATEGORI_FK">
+<createdBy>user</createdBy>
+<createdTime>2023-05-16 18:57:35 UTC</createdTime>
+<generatorID>8D582B44-2838-3A20-878E-72E88A65EB56</generatorID>
+<ownerDesignName>perpustakaan</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3CD82F81-427D-2043-BD33-20E118B35547"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1F4E3AD2-11EB-4C20-B0E7-F041729D7F21" name="BUKU_RAK_FK">
+<createdBy>user</createdBy>
+<createdTime>2023-05-16 18:57:35 UTC</createdTime>
+<generatorID>7205A099-FB61-9385-1E0B-70518FB306BD</generatorID>
+<ownerDesignName>perpustakaan</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75D3EDDF-6B12-AFB4-DE0D-BA518BB59456"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

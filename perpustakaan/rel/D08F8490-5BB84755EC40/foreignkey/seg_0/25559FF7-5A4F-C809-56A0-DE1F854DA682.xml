@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="25559FF7-5A4F-C809-56A0-DE1F854DA682" containerWithKeyObject="393C2F82-74EC-F162-32F4-4F8981E276A9" localFKIndex="1F4E3AD2-11EB-4C20-B0E7-F041729D7F21" name="BUKU_RAK_FK">
+<createdBy>user</createdBy>
+<createdTime>2023-05-16 18:57:35 UTC</createdTime>
+<generatorID>7205A099-FB61-9385-1E0B-70518FB306BD</generatorID>
+<ownerDesignName>perpustakaan</ownerDesignName>
+<referredTableLongName>RAK</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7130DA26-61BC-9E3D-EC34-B4F9B71FD289</referredTableID>
+<keyObject>91962A60-57D7-C92E-D653-B879FB79BFC9</keyObject>
+<referredKeyID>91962A60-57D7-C92E-D653-B879FB79BFC9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_rak</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
